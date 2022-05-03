@@ -6,7 +6,8 @@
   "author": "Guedes <gguilhermegguedes@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli"
   },
   "dependencies": {
     "@types/uuid": "^8.3.4",
@@ -15,7 +16,8 @@
     "multer": "^1.4.4",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.6",
+    "tsyringe": "^4.6.0",
+    "typeorm": "0.2.45",
     "uuid": "^8.3.2"
   },
   "devDependencies": {

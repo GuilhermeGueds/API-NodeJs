@@ -9,7 +9,7 @@ const router = Router();
 
 router.use("/categories/", categoriesRoutes);
 
-router.use("/specification", specificationsRoutes);
+router.use("/specification/", specificationsRoutes);
 
 
 export { router };
