@@ -6,6 +6,9 @@ interface ICreateUserDTO {
     passworld: string;
     email: string;
     driver_license: string
+    id?: string;
+    avatar?: string;
+
 }
 
 
