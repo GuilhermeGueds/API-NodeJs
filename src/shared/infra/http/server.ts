@@ -4,10 +4,10 @@ import "express-async-errors"
 import { router } from "./routes"
 
 
-import "./database"
+import "../typeorm"
 
-import "./shared/container";
-import { AppError } from "./errors/AppError";
+import "../../container";
+import { AppError } from "../../errors/AppError";
 
 const app = express();
 
